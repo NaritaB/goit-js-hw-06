@@ -19,12 +19,14 @@ const ingredients = [
   'Condiments',
 ];
 
+
 const ulEl = document.querySelector('ul#ingredients');
+
 
 for(const ingredient of ingredients){
   const liEl = document.createElement('li');
   liEl.textContent = ingredient;
   ulEl.appendChild(liEl); 
-  ulEl.prepend(liEl);
- }
-// document.ul.prepend(liEl);
+  }
+
+document.body.prepend(ulEl);
