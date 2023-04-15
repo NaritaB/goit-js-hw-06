@@ -29,4 +29,4 @@ for(const ingredient of ingredients){
   ulEl.appendChild(liEl); 
   }
 
-document.body.prepend(ulEl);
+document.body.after(ulEl);
